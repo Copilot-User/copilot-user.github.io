@@ -37,11 +37,15 @@ Dream Studio is a powerful tool that allows you to create unique and realistic i
 
 ## Results
 
+### Here are some full scale images that I saved:
+
 ![image-center]({{ '/images/dream-studio-tutorial/image11.png' | absolute_url }}){: .align-center}
 
 ![image-center]({{ '/images/dream-studio-tutorial/image10.png' | absolute_url }}){: .align-center}
 
 ![image-center]({{ '/images/dream-studio-tutorial/image9.png' | absolute_url }}){: .align-center}
+
+### Here are some thumbnail sized images I saved. The original images it generated were full scale, and much higher quality:
 
 ![image-center]({{ '/images/dream-studio-tutorial/image8.png' | absolute_url }}){: .align-center}
 
