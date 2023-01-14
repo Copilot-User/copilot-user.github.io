@@ -38,13 +38,23 @@ Dream Studio is a powerful tool that allows you to create unique and realistic i
 ## Results
 
 ![image-center]({{ '/images/dream-studio-tutorial/image11.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image10.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image9.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image8.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image7.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image6.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image5.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image4.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image3.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image2.png' | absolute_url }}){: .align-center}
+
 ![image-center]({{ '/images/dream-studio-tutorial/image1.png' | absolute_url }}){: .align-center}
