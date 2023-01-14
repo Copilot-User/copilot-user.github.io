@@ -121,7 +121,7 @@ footer_links:
     url: https://twitter.com/copilot_user
     icon: fab fa-twitter-square
   - title: GitHub
-    url: https://github.com/copilot_user
+    url: https://github.com/copilot-user
     icon: fab fa-github-square
   - title: Feed
     url: atom.xml
