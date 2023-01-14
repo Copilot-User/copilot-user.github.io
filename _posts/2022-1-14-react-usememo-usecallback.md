@@ -29,7 +29,7 @@ In conclusion, `useMemo` and `useCallback` are two powerful hooks in React that 
 ## Examples
 
 Here's an example of how you might use useMemo to memoize the value of a large table of data:
-```JSX
+```javascript
 import { useMemo } from 'react';
 
 function Table({ data }) {
@@ -55,7 +55,7 @@ function Table({ data }) {
 In this example, the `useMemo` hook is used to memoize the value of the `tableData` variable, which is the result of an expensive data processing operation. The `data` prop is passed as a dependency to the `useMemo` hook, so the data processing operation will only be re-run when the `data` prop changes. This can help to prevent unnecessary re-renders of the `Table` component, and improve the performance of the application.
 
 Here's an example of how you might use `useCallback` to memoize the value of an event handler:
-```JSX
+```javascript
 import { useCallback } from 'react';
 
 function Button({ onClick }) {
