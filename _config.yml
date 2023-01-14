@@ -25,6 +25,7 @@ logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/image
 date_format: "%B %-d, %Y"
 read_time: true
 words_per_minute: 200
+copyright: © 2023 Copilot User Blog.
 mathjax:
   enable: true
 #  combo: "tex-mml-chtml"
