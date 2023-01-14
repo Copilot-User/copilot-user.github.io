@@ -103,8 +103,8 @@ defaults:
 
 # Site Author
 author:
-  name: Michael Rose
-  picture: /images/michael-rose-photo.jpg
+  name: Copilot User
+  picture: /images/copilot-user-photo.png
   email:
   twitter: copilot_user
   links:
