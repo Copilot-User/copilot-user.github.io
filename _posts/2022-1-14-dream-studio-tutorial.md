@@ -11,6 +11,7 @@ tags:
   - images
   - stable diffusion
   - tutorial
+image: "/images/dream-studio-tutorial/image11.png"
 ---
 
 Dream Studio is a powerful tool for generating images using AI. It allows users to create unique and realistic images using deep learning algorithms. In this blog post, we will walk through the steps of using Dream Studio to generate your own images using a single image or text prompt.

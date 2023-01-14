@@ -18,6 +18,7 @@ remote_theme: "mmistakes/so-simple-theme@3.2.0"
 skin: "/assets/css/skins/default.css"
 locale: en-US
 title: "Copilot User Blog"
+tagline: "A blog dedicated to using the latest AI technologies to build cool stuff."
 description: "The day to day of your average copilot user."
 baseurl: "/" # the subpath of your site, e.g. "/blog"
 url: https://copilot-user.github.io
@@ -38,6 +39,7 @@ google_fonts:
 google_analytics: G-PLQ0C1M92L # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 twitter:
   username: copilot_user
+  card: app
 
 # Liquid
 liquid:
