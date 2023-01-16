@@ -1,6 +1,6 @@
 ---
-title: "Generating Images With AI using DreamStudio"
-excerpt: "A step-by-step guide to image generation with DreamStudio."
+title: "Generative AI and the Future of Software Engineering"
+excerpt: "A disccusion on the role generative AI is going to play in the near future in software engineering."
 last_modified_at: 2022-01-16T17:13:00T-05:00
 categories:
   - ai
@@ -9,9 +9,11 @@ categories:
   - generative ai
 tags: 
   - ai
-  - images
-  - stable diffusion
-  - tutorial
+  - software engineering
+  - chatgpt
+  - github copilot
+  - generative ai
+  - future
 image: "/images/generative-ai-and-software-engineering/thumbnail.png"
 ---
 
