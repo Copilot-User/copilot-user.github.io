@@ -21,7 +21,7 @@ title: "Copilot User Blog"
 tagline: "A blog dedicated to using the latest AI technologies to build cool stuff."
 description: "The day to day of your average copilot user."
 baseurl: "/" # the subpath of your site, e.g. "/blog"
-url: https://copilot-user.github.io
+url: https://copilotuser.com
 logo: "/images/so-simple-site-logo.png" # path of site logo, e.g. "/assets/images/logo.png"
 date_format: "%B %-d, %Y"
 read_time: true
