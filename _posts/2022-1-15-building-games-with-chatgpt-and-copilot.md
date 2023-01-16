@@ -1,7 +1,7 @@
 ---
 title: "Building a game and beating it with ChatGPT and Github Copilot"
 excerpt: "An exercise of seeing how easy AI can build and break things."
-last_modified_at: 2022-01-14T04:46:00-05:00
+last_modified_at: 2022-01-15T22:27:00T-05:00
 categories:
   - ai
   - copilot
@@ -23,7 +23,7 @@ The prompt we used to generate the game scaffolding was:
 > Build a JavaScript game that has a green box that you need to click to gain points. There should be a bunch of randomly colored boxes that aren't green appearing and moving across the screen.
 
 Which produced:
-```Javascript
+```javascript
 // Create the canvas element
 const canvas = document.createElement('canvas');
 canvas.width = window.innerWidth;
@@ -117,7 +117,7 @@ We then added a start function with Github Copilot to call the animate function 
 
 Which produced this great response:
 > Here's an example of an HTML file that calls the animate function in index.js:
- ```HTML
+ ```javascript
 <!DOCTYPE html>
 <html>
   <head>
@@ -133,7 +133,7 @@ Which produced this great response:
 ```
 > It is important to note that the animate function should be called in a loop to make it look like it is animating. So you can use requestAnimationFrame to achieve that.
 
-```Javascript
+```javascript
 // Function to animate the game
 function animate() {
   drawBoxes();
@@ -160,7 +160,7 @@ function createNewBoxes(){
 }
 ```
 > Then you can call this function every time you update the score.
-```Javascript
+```javascript
 canvas.addEventListener('click', (event) => {
   // Check if the click was on the green box
   if (event.clientX > greenBox.x && event.clientX < greenBox.x + greenBox.width &&
@@ -318,4 +318,10 @@ while True:
 
 Some of the key changes are related to selecting a region on the screen instead of capturing the entire screen. We also added in an optimization that clears the `candidate_boxes` after a few clicks, because it was growing extremely large as we got further along in the game.
 
-Overall, the AI we've developed for this game is a prime example of how advanced technology can be used to achieve superhuman performance. Its ability to quickly and accurately identify the green box among a sea of moving and potentially similar-colored boxes is truly remarkable, and we're excited to see what other applications this technology may have in the future.
+After leaving it run for a few minutes, we came back to this insanity:
+![image-center]({{ '/images/building-games-with-chatgpt-and-copilot/game_screenshot.png' | absolute_url }}){: .align-center}
+
+The final AI code can be found here:
+https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/ai
+
+Overall, within about 30 minutes, we had a working game and an AI that uses the latest computer software to play it at a superhuman level. Welcome to the future!
