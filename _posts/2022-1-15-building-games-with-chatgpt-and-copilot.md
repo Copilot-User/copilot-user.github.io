@@ -1,6 +1,6 @@
 ---
 title: "Building a game and beating it with ChatGPT and Github Copilot"
-excerpt: "An exercise of seeing how easy AI can build and break things."
+excerpt: "An exercise of seeing how easily AI can build and break things."
 last_modified_at: 2022-01-15T22:27:00T-05:00
 categories:
   - ai
