@@ -117,6 +117,7 @@ We then added a start function with Github Copilot to call the animate function 
 
 Which produced this great response:
 > Here's an example of an HTML file that calls the animate function in index.js:
+
 ~~~ javascript
 <!DOCTYPE html>
 <html>
@@ -131,6 +132,7 @@ Which produced this great response:
   </body>
 </html>
 ~~~
+
 > It is important to note that the animate function should be called in a loop to make it look like it is animating. So you can use requestAnimationFrame to achieve that.
 
 ~~~ javascript
@@ -141,7 +143,9 @@ function animate() {
   requestAnimationFrame(animate);
 }
 ~~~
+
 > You can also write a function to change the number of boxes on the screen, to make it harder or easier as the score increase.
+
 ~~~ javascript
 function createNewBoxes(){
   if(score < 10){
@@ -159,7 +163,9 @@ function createNewBoxes(){
   }
 }
 ~~~
+
 > Then you can call this function every time you update the score.
+
 ~~~ javascript
 canvas.addEventListener('click', (event) => {
   // Check if the click was on the green box
@@ -172,6 +178,7 @@ canvas.addEventListener('click', (event) => {
   }
 });
 ~~~
+
 > This is just a basic example, you can add more features such as sound effects, different level, different green box size, more complex collision detection, and so on.
 
 After some tweaking, we decided to make the score move around the screen to stop the AI from trying to click on it, though it's unlikely the AI duo wouldn't be able to figure out how to ignore it.
@@ -248,6 +255,7 @@ while True:
 ~~~
 
 After some back and forth with it about errors from using an old version of OpenCV, we were off able to start using Github Copilot... About 15 minutes later, we had this:
+
 ~~~ python
 import cv2
 import numpy as np
