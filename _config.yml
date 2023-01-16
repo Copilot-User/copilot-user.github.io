@@ -39,7 +39,7 @@ google_fonts:
 google_analytics: G-PLQ0C1M92L # Google Analytics id, e.g. "UA-NNNNNNNN-N"
 twitter:
   username: copilot_user
-  card: app
+  card: summary
 
 # Liquid
 liquid:
