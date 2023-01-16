@@ -1,7 +1,7 @@
 ---
 title: "Generating Images With AI using DreamStudio"
 excerpt: "A step-by-step guide to image generation with DreamStudio."
-last_modified_at: 2022-01-14T04:46:00-05:00
+last_modified_at: 2022-01-14T04:46:00T-05:00
 categories:
   - ai
   - stable diffusion

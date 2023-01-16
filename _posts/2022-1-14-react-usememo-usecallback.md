@@ -1,7 +1,7 @@
 ---
 title: "React: useMemo and useCallback usage"
 excerpt: "A brief disussion on when to use useMemo and useCallback."
-last_modified_at: 2022-01-14T03:12:00-05:00
+last_modified_at: 2022-01-14T03:12:00T-05:00
 categories:
   - react
   - performance
