@@ -180,7 +180,7 @@ Here's a preview of what the game looked like:
 ![image-center]({{ '/images/building-games-with-chatgpt-and-copilot/game_preview.gif' | absolute_url }}){: .align-center}
 
 The final game code can be found here:
-https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/game
+[https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/game](https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/game)
 
 Now on to the AI, which is what really sets this project apart. With the help of ChatGPT and Github Copilot, we were able to develop an AI that uses Python and OpenCV to continuously capture the screen, find the stationary box among the moving boxes, and click on it with superhuman precision and speed.
 
@@ -322,6 +322,6 @@ After leaving it run for a few minutes, we came back to this insanity:
 ![image-center]({{ '/images/building-games-with-chatgpt-and-copilot/game_screenshot.png' | absolute_url }}){: .align-center}
 
 The final AI code can be found here:
-https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/ai
+[https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/ai](https://github.com/Copilot-User/chatgpt-and-copilot-build-a-game/tree/main/ai)
 
 Overall, within about 30 minutes, we had a working game and an AI that uses the latest computer software to play it at a superhuman level. Welcome to the future!
