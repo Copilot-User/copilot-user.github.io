@@ -23,7 +23,7 @@ The prompt we used to generate the game scaffolding was:
 > Build a JavaScript game that has a green box that you need to click to gain points. There should be a bunch of randomly colored boxes that aren't green appearing and moving across the screen.
 
 Which produced:
-```javascript
+~~~ javascript
 // Create the canvas element
 const canvas = document.createElement('canvas');
 canvas.width = window.innerWidth;
@@ -108,7 +108,7 @@ canvas.addEventListener('click', (event) => {
 // Function to animate the game
 function animate() {
   drawBoxes();
-```
+~~~
 
 Note: The code abruptly stops, which occasionally happens with ChatGPT.
 
@@ -117,7 +117,7 @@ We then added a start function with Github Copilot to call the animate function 
 
 Which produced this great response:
 > Here's an example of an HTML file that calls the animate function in index.js:
- ```javascript
+~~~ javascript
 <!DOCTYPE html>
 <html>
   <head>
@@ -130,19 +130,19 @@ Which produced this great response:
     </script>
   </body>
 </html>
-```
+~~~
 > It is important to note that the animate function should be called in a loop to make it look like it is animating. So you can use requestAnimationFrame to achieve that.
 
-```javascript
+~~~ javascript
 // Function to animate the game
 function animate() {
   drawBoxes();
   updateBoxes();
   requestAnimationFrame(animate);
 }
-```
+~~~
 > You can also write a function to change the number of boxes on the screen, to make it harder or easier as the score increase.
-```Javascript
+~~~ javascript
 function createNewBoxes(){
   if(score < 10){
     for (let i = 0; i < 10; i++) {
@@ -158,9 +158,9 @@ function createNewBoxes(){
     }
   }
 }
-```
+~~~
 > Then you can call this function every time you update the score.
-```javascript
+~~~ javascript
 canvas.addEventListener('click', (event) => {
   // Check if the click was on the green box
   if (event.clientX > greenBox.x && event.clientX < greenBox.x + greenBox.width &&
@@ -171,7 +171,7 @@ canvas.addEventListener('click', (event) => {
     greenBox.y = Math.random() * canvas.height;
   }
 });
-```
+~~~
 > This is just a basic example, you can add more features such as sound effects, different level, different green box size, more complex collision detection, and so on.
 
 After some tweaking, we decided to make the score move around the screen to stop the AI from trying to click on it, though it's unlikely the AI duo wouldn't be able to figure out how to ignore it.
@@ -188,7 +188,7 @@ The process of building the player was relatively simple. We first used ChatGPT 
 > Create an AI using Python and OpenCV that continuously captures the screen and finds the stationary box among slow moving boxes. Once it is confident it has found the box, it should click on it.
 
 At which point it gave us this to work with:
-```Python
+~~~ python
 import cv2
 import numpy as np
 import pyautogui
@@ -245,10 +245,10 @@ while True:
 
     # Sleep for some time
     time.sleep(0.5)
-```
+~~~
 
 After some back and forth with it about errors from using an old version of OpenCV, we were off able to start using Github Copilot... About 15 minutes later, we had this:
-```Python
+~~~ python
 import cv2
 import numpy as np
 import pyautogui
@@ -314,7 +314,7 @@ while True:
     if times_clicked >= 10:
         candidate_boxes.clear()
         times_clicked = 0
-```
+~~~
 
 Some of the key changes are related to selecting a region on the screen instead of capturing the entire screen. We also added in an optimization that clears the `candidate_boxes` after a few clicks, because it was growing extremely large as we got further along in the game.
 
