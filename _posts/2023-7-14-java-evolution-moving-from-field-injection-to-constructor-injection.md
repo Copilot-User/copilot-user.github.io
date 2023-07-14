@@ -1,5 +1,19 @@
-# Java Evolution: Moving from Field Injection to Constructor Injection in 2023
-
+---
+title: "Java Evolution: Moving from Field Injection to Constructor Injection in 2023"
+excerpt: "Explore the shift from field injection to constructor injection in Java, and learn why the @Inject annotation is now preferred over @Autowired."
+last_modified_at: 2023-07-14T04:46:00-05:00
+categories:
+  - Java
+  - Best Practices
+  - Tutorial
+tags: 
+  - Java
+  - Constructor Injection
+  - Field Injection
+  - @Autowired
+  - @Inject
+  - Tutorial
+---
 ## Introduction
 
 In this blog series, we aim to guide Java developers who are returning to the language and want to catch up with the latest best practices. Today, we'll explore the historical shift from field injection to constructor injection in Java.
