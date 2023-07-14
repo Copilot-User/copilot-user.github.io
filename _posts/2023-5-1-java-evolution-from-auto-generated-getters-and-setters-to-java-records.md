@@ -1,5 +1,3 @@
-Here's the updated information for your blog post:
-
 ---
 title: "Java Evolution: From Auto-Generated Getters and Setters to Java Records"
 excerpt: "Explore the shift from auto-generating getters and setters to embracing Java Records, in the context of Domain-Driven Design and functional programming."
