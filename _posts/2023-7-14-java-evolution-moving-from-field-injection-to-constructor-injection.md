@@ -3,16 +3,16 @@ title: "Java Evolution: Moving from Field Injection to Constructor Injection in 
 excerpt: "Explore the shift from field injection to constructor injection in Java, and learn why the @Inject annotation is now preferred over @Autowired."
 last_modified_at: 2023-07-14T04:46:00-05:00
 categories:
-  - Java
-  - Best Practices
-  - Tutorial
+  - java
+  - best practices
+  - tutorial
 tags: 
-  - Java
-  - Constructor Injection
-  - Field Injection
-  - @Autowired
-  - @Inject
-  - Tutorial
+  - java
+  - constructor injection
+  - field injection
+  - autowired
+  - inject
+  - tutorial
 ---
 ## Introduction
 
