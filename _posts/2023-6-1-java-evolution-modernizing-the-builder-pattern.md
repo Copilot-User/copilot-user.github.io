@@ -353,6 +353,6 @@ Java Records, mapping libraries, and design patterns like Factory are just some 
 In our Java Evolution series, we'll continue to explore how Java is evolving and how we can make the most of these changes. Stay tuned for more insights and tips on writing modern, effective Java code.
 
 [^1]: [When would you use the Builder Pattern? - Stack Overflow](https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern)
-[^2]: [Builder Design Pattern in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java)
+[^2]: [Builder Design Pattern in Java - DigitalOcean](https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java)
 [^3]: [Exploring Joshua Bloch’s Builder design pattern in Java - Oracle Blogs](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java)
 [^4]: [Builder in Java / Design Patterns - refactoring.guru](https://refactoring.guru/design-patterns/builder/java/example)
