@@ -15,11 +15,11 @@ tags:
 ---
 ## Introduction
 
-Welcome back to our Java Evolution series! In this installment, we're going to take a deep dive into the Builder pattern, a design pattern that has been a staple in Java for many years. The Builder pattern is a creational design pattern that separates the construction of a complex object from its representation[^1^]. This pattern is particularly useful when you need to create an object with many possible configuration options[^4^].
+Welcome back to our Java Evolution series! In this installment, we're going to take a deep dive into the Builder pattern, a design pattern that has been a staple in Java for many years. The Builder pattern is a creational design pattern that separates the construction of a complex object from its representation[^1]. This pattern is particularly useful when you need to create an object with many possible configuration options[^4].
 
 ## The Traditional Builder Pattern in Java
 
-The Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the object contains a lot of attributes[^2^]. It's especially useful when designing classes whose constructors or static factories would have more than a handful of parameters[^1^]. 
+The Builder pattern was introduced to solve some of the problems with Factory and Abstract Factory design patterns when the object contains a lot of attributes[^2]. It's especially useful when designing classes whose constructors or static factories would have more than a handful of parameters[^1]. 
 
 Here's a traditional example of the Builder pattern in Java:
 
@@ -71,7 +71,7 @@ public class Pizza {
 }
 ```
 
-This pattern allows you to produce different types and representations of a product using the same construction code[^4^].
+This pattern allows you to produce different types and representations of a product using the same construction code[^4].
 
 Here's an updated version of the "Common Misuses of the Builder Pattern in Java" section with examples:
 
@@ -352,7 +352,7 @@ Java Records, mapping libraries, and design patterns like Factory are just some 
 
 In our Java Evolution series, we'll continue to explore how Java is evolving and how we can make the most of these changes. Stay tuned for more insights and tips on writing modern, effective Java code.
 
-[^1^]: [When would you use the Builder Pattern? - Stack Overflow](https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern)
-[^2^]: [Builder Design Pattern in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java)
-[^3^]: [Exploring Joshua Bloch’s Builder design pattern in Java - Oracle Blogs](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java)
-[^4^]: [Builder in Java / Design Patterns - refactoring.guru](https://refactoring.guru/design-patterns/builder/java/example)
+[^1]: [When would you use the Builder Pattern? - Stack Overflow](https://stackoverflow.com/questions/328496/when-would-you-use-the-builder-pattern)
+[^2]: [Builder Design Pattern in Java | DigitalOcean](https://www.digitalocean.com/community/tutorials/builder-design-pattern-in-java)
+[^3]: [Exploring Joshua Bloch’s Builder design pattern in Java - Oracle Blogs](https://blogs.oracle.com/javamagazine/post/exploring-joshua-blochs-builder-design-pattern-in-java)
+[^4]: [Builder in Java / Design Patterns - refactoring.guru](https://refactoring.guru/design-patterns/builder/java/example)
