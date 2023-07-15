@@ -112,7 +112,7 @@ In this code sample, we can see that `createCustomer()` method can safely call m
 
 For more insights on the benefits of constructor injection, you can refer to these sources:
 
-- [Constructor Dependency Injection in Spring | Baeldung](https://www.baeldung.com/constructor-injection-in-spring)
+- [Constructor Dependency Injection in Spring - Baeldung](https://www.baeldung.com/constructor-injection-in-spring)
 - [java - Explain why constructor inject is better than other options ...](https://stackoverflow.com/questions/21218868/explain-why-constructor-inject-is-better-than-other-options)
 - [Why You Should Use Constructor Injection in Spring - Reflectoring](https://reflectoring.io/constructor-injection/)
 - [Understanding Constructor Injection - Manning](https://freecontent.manning.com/understanding-constructor-injection/)
