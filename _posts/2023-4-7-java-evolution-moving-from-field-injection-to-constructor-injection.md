@@ -69,7 +69,7 @@ For these reasons, field injection is generally not recommended. Instead, we sho
 
 For more information on the drawbacks of field injection, you can refer to these resources:
 
-- [Why Is Field Injection Not Recommended? | Baeldung](https://www.baeldung.com/java-spring-field-injection-cons)
+- [Why Is Field Injection Not Recommended? - Baeldung](https://www.baeldung.com/java-spring-field-injection-cons)
 - [What exactly is Field Injection and how to avoid it? - Stack Overflow](https://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it)
 - [Spring Field Injection Example and It's Drawbacks - Java Guides](https://www.javaguides.net/2019/11/spring-field-injection-example-and-its-drawbacks.html)
 
