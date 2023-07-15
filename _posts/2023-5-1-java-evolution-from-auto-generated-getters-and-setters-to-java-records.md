@@ -73,7 +73,7 @@ Functional programming also emphasizes immutability and the use of pure function
 
 The rise of these concepts has influenced the design and evolution of Java, leading to the introduction of features like Java Records. These features align with the principles of DDD and functional programming, providing developers with powerful tools to design software that is more robust, maintainable, and aligned with the business domain.
 
-[^1]: [Domain-driven design in functional programming | Thoughtworks](https://www.thoughtworks.com/insights/blog/architecture/domain-driven-design-in-functional-programming)
+[^1]: [Domain-driven design in functional programming - Thoughtworks](https://www.thoughtworks.com/insights/blog/architecture/domain-driven-design-in-functional-programming)
 [^2]: [Functional Domain Driven Design: Simplified - Antman writes software](https://antman-does-software.com/functional-domain-driven-design-simplified)
 [^3]: [Domain Modeling Made Functional - The Pragmatic Programmer](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
 
