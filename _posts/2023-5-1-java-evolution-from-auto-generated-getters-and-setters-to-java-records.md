@@ -63,20 +63,19 @@ However, Lombok had its limitations. It required a plugin to be installed in you
 
 ## The Rise of Domain-Driven Design and Functional Programming
 
-In recent years, there has been a growing interest in Domain-Driven Design (DDD) and functional programming. DDD is an approach to software design that prioritizes the 'domain,' or the sphere of knowledge and activity that the software addresses. It emphasizes a model-driven design where the model is based on the actual domain[^1^].
+In recent years, there has been a growing interest in Domain-Driven Design (DDD) and functional programming. DDD is an approach to software design that prioritizes the 'domain,' or the sphere of knowledge and activity that the software addresses. It emphasizes a model-driven design where the model is based on the actual domain[^1].
 
-Functional programming, on the other hand, is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data[^2^].
+Functional programming, on the other hand, is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing state and mutable data[^2].
 
-In DDD, a key concept is the Value Object. A Value Object is an immutable object that contains attributes but has no conceptual identity. They are used to represent objects that are entirely defined by their state, not by a thread of continuity or identity[^3^].
+In DDD, a key concept is the Value Object. A Value Object is an immutable object that contains attributes but has no conceptual identity. They are used to represent objects that are entirely defined by their state, not by a thread of continuity or identity[^3].
 
 Functional programming also emphasizes immutability and the use of pure functions that do not have side effects. These trends have led to a demand for a more concise and functional-friendly syntax in Java.
 
 The rise of these concepts has influenced the design and evolution of Java, leading to the introduction of features like Java Records. These features align with the principles of DDD and functional programming, providing developers with powerful tools to design software that is more robust, maintainable, and aligned with the business domain.
 
-[^1^]: [Domain-driven design in functional programming | Thoughtworks](https://www.thoughtworks.com/insights/blog/architecture/domain-driven-design-in-functional-programming)
-[^2^]: [Domain Driven Design implemented by functional programming](https://www.thoughtworks.com/insights/blog/microservices/ddd-implemented-fp)
-[^3^]: [Functional Domain Driven Design: Simplified - Antman writes software](https://antman-does-software.com/functional-domain-driven-design-simplified)
-[^4^]: [Domain Modeling Made Functional - The Pragmatic Programmer](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
+[^1]: [Domain-driven design in functional programming | Thoughtworks](https://www.thoughtworks.com/insights/blog/architecture/domain-driven-design-in-functional-programming)
+[^2]: [Functional Domain Driven Design: Simplified - Antman writes software](https://antman-does-software.com/functional-domain-driven-design-simplified)
+[^3]: [Domain Modeling Made Functional - The Pragmatic Programmer](https://pragprog.com/titles/swdddf/domain-modeling-made-functional/)
 
 ## The Modern Approach: Embracing Java Records
 
